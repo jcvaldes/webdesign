@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap");
+
+body {
+    background-color: #eee;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300
+}
+
+.card {
+    border: none;
+    background-color: #000;
+    color: #fff
+}
+
+.fonts i {
+    margin-right: 15px;
+    font-size: 18px;
+    color: #cac7c7
+}
+
+.button {
+    height: 60px;
+    font-size: 14px;
+    background-color: #5268f4;
+    border: none;
+    margin-top: 15px
+}
+
+.button:hover {
+    background-color: #152cc1
+}
+
+.form {
+    position: relative;
+    margin-top: 15px
+}
+
+.form input {
+    height: 52px;
+    text-indent: 22px
+}
+
+.form i {
+    position: absolute;
+    color: #00000052;
+    left: 10px;
+    top: 16px;
+    font-size: 20px
+}
+
+.demo {
+    position: relative;
+    background-color: #1c1e21;
+    width: 250px;
+    height: 80px;
+    border-radius: 50px;
+    cursor: pointer
+}
+
+.twitter-button {
+    position: relative;
+    background-color: #1c1e21;
+    width: 250px;
+    height: 80px;
+    border-radius: 50px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.5s ease
+}
+
+.twitter-button:hover {
+    background-color: #5955e7
+}
+
+.circle {
+    position: absolute;
+    height: 60px;
+    width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #37393c;
+    border-radius: 50%;
+    left: 15px;
+    top: 10px;
+    transition: all 0.5s ease
+}
+
+.demo:hover .circle {
+    background-color: #5955e7
+}
+
+.demo-content {
+    right: 50px;
+    position: absolute
+}
+
+.twitter-circle {
+    background-color: #1c1e21;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer
+}
+
+.twitter-circle:hover {
+    background-color: #5955e7
+}
