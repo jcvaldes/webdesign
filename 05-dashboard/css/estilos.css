@@ -9,23 +9,23 @@ a {
 }
 
 /* --- --- BARRA LATERAL --- --- */
-.barra-lateral {
+.side-left {
   background: #262a34;
   color: #fff;
   min-width: 300px;
   min-height: 100vh;
 }
 
-.barra-lateral a {
+.side-left a {
   color: #fff;
 }
 
 /* --- LOGO --- */
-.barra-lateral .logo {
+.side-left .logo {
   background: #0275db;
 }
 
-.barra-lateral .logo h2 {
+.side-left .logo h2 {
   font-size: 30px;
   font-family: "Roboto", sans-serif;
   text-align: center;
@@ -33,7 +33,7 @@ a {
 }
 
 /* --- MENU --- */
-.barra-lateral .menu a {
+.side-left .menu a {
   display: block;
   padding: 20px;
   font-family: "Roboto", sans-serif;
@@ -41,11 +41,11 @@ a {
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
 
-.barra-lateral .menu a:hover {
+.side-left .menu a:hover {
   background: #35ae6b;
 }
 
-.barra-lateral .menu a svg {
+.side-left .menu a svg {
   margin-right: 10px;
 }
 
@@ -54,7 +54,7 @@ a {
   padding-top: 40px;
 }
 
-.main .columna {
+.main .column {
   padding: 0 40px;
 }
 
@@ -224,7 +224,7 @@ a {
 
 /* Dispositivo sm */
 @media screen and (max-width: 576px) {
-  .barra-lateral {
+  .side-left {
     min-height: auto;
   }
 }
@@ -242,15 +242,15 @@ a {
 
 /* Dispositivo xl */
 @media screen and (max-width: 1300px) {
-  .barra-lateral {
+  .side-left {
     min-width: auto;
   }
 
-  .barra-lateral .logo {
+  .side-left .logo {
     display: none;
   }
 
-  .barra-lateral .menu a span {
+  .side-left .menu a span {
     display: none;
   }
 
